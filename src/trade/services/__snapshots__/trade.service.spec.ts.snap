@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TradeService analyseTrades should return results of trade analysis 1`] = `
+[
+  {
+    "changePercentage": "-1.89",
+    "changePrice": "-2000.00",
+  },
+  {
+    "changePercentage": "-2.89",
+    "changePrice": "-3000.00",
+  },
+  {
+    "changePercentage": "3.97",
+    "changePrice": "4000.00",
+  },
+  {
+    "changePercentage": "4.78",
+    "changePrice": "4999.99",
+  },
+]
+`;

@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    image: node:22.13.0-alpine
+    working_dir: /srv
+    command: yarn start:dev
+    user: node
+    ports:
+      - "3000:3000"
+    environment:
+      - BINANCE_URL=https://api.binance.com/api
+    volumes:
+      - ./:/srv:cached
